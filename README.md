@@ -1,30 +1,61 @@
 # 🃏 Blackjack Game (21) - (Java) 
 # 📌 Description
 A console-based implementation of the popular casino card game Blackjack (also known as 21) written in Java.
-All the rules of the game can be found here: https://bicyclecards.com/how-to-play/blackjack/
 
-# 🎮 Game Features
-Full implementation of classic Blackjack rules:
+## 📝 Game Rules
+- Get a hand value as close to 21 as possible without going over, and higher than the dealer's total.
+- All the rules of the game can be found here: https://bicyclecards.com/how-to-play/blackjack/
+  
+### 🃏 Card Values
+- Number cards (2–10): Numerical value.
+- Face cards (J, Q, K): 10 points.
+- Ace (A or 1): Counts as **1 or 11**, whichever benefits the player most.
 
-Hit, Stand, Split, Double Down.
+### 💰 Betting
+- Players place a **bet** at the start of each round.
+- Payouts:
+  - **Blackjack (21 with 2 cards)** pays **1.5×** the bet.
+  - Winning normally pays **1×** the bet.
+  - A tie returns the original bet.
 
-Dealer plays after all players.
+### 🎲 Dealing
+- Dealer deals **one face-up card** to each player and to themselves.
+- Then, **a second card** is dealt to each:
+  - **Players** receive a second face-up card.
+  - **Dealer** receives a second card **face-down**.
 
-Ace counts as 1 or 11, depending on hand.
+### 🔍 Blackjack Check
+- Dealer checks for **blackjack** after initial deal:
+  - If **dealer has blackjack**, all players lose **unless** they also have blackjack (in which case it's a tie).
+  - If a **player has blackjack** and the dealer does not, the player wins **1.5×** their bet.
 
-Betting system per round.
+### 🧍 Player Actions
+- **Split**: If dealt two cards of the same rank, player can split into two hands.
+- **Double Down**: Player doubles their bet, receives **one more card**, then must stand.
+- **Hit**: Take an additional card.
+- **Stand**: Stop taking cards and keep current hand.
+- **Bust**: If hand exceeds 21, the player **automatically loses**.
 
-Blackjack pays 3:2.
+### 🧑‍⚖️ Dealer's Turn
+- Dealer reveals face-down card.
+- Dealer must draw cards until their total is **17 or more**.
+- If dealer busts (goes over 21), all remaining players win.
 
-Bust if over 21.
+### 🏆 Round Results
+- Player wins if:
+  - They have **higher total than dealer** (and ≤21), or
+  - Dealer **busts**.
+- Player loses if:
+  - They **bust**, or
+  - Dealer has a **higher total** (and ≤21).
+- Tie if:
+  - Both player and dealer have the **same total**.
 
-Dealer hits until 17 or more.
-
-Automatic reshuffling of decks when needed.
-# 🛠️ How to Run
+## 🛠️ How to Run
 Compile the Java files:
 javac *.java
 Run the main method in Round (or test individual components):
 java Round
-# 🔁 Dependencies
+
+## 🔁 Dependencies
 No external libraries required
