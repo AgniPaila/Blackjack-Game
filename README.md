@@ -1,6 +1,7 @@
 # 🃏 Blackjack Game (21) - (Java) 
 # 📌 Description
 A console-based implementation of the popular casino card game Blackjack (also known as 21) written in Java.
+All the rules of the game can be found here: https://bicyclecards.com/how-to-play/blackjack/
 
 # 🎮 Game Features
 Full implementation of classic Blackjack rules:
