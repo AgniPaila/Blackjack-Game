@@ -1,12 +1,12 @@
-//Agni Paila   AM:4753
+//Agni Paila   
 
 import java.util.Scanner;
 
 class Player{
 
-	private CasinoCustomer player;  //paikths pou paizei sto trapezi
-	private Hand playerHand;    //to xeri tou paikth
-	private double bet;      //to stoixhma tou paikth
+	private CasinoCustomer player;  
+	private Hand playerHand;    
+	private double bet;      
 
 	public Player(CasinoCustomer player){
 		this.player=player;
