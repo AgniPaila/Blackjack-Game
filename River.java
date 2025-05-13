@@ -1,6 +1,5 @@
-//Agni Paila   AM:4753
+//Agni Paila  
 
-//to reuma twn xartiwn
 import java.util.Random;
 
 class River{
@@ -24,12 +23,12 @@ class River{
 			return null;
 		}else{
 			Random random = new Random();
-			int randomValue=random.nextInt(cardsLeft);  //randomValue einai tyxaia timh apo to 0 ews to cardsLeft-1
+			int randomValue=random.nextInt(cardsLeft);  
 			Card temp=arrayCards[randomValue];
 			arrayCards[randomValue]=arrayCards[cardsLeft-1];
 			arrayCards[cardsLeft-1]=temp;
 			cardsLeft=cardsLeft-1;
-			return temp;     //epistrefv to xarti sth tyxaia thesh
+			return temp;     
 		}  
 	}
 	
