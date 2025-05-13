@@ -1,5 +1,5 @@
 # 🃏 Blackjack Game (21) - (Java) 
-📌 Description
+# 📌 Description
 A console-based implementation of the popular casino card game Blackjack (also known as 21) written in Java.
 
 # 🎮 Game Features
