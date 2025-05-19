@@ -60,3 +60,6 @@ java Round
 
 ## 🔁 Dependencies
 No external libraries required
+
+## 📘 Course Info
+Course: Τεχνικές Αντικειμενοστρεφούς Προγραμματισμού (Object Oriented Programming Techniques)
