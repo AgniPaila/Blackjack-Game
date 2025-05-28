@@ -1,4 +1,4 @@
-# 🃏 Blackjack Game (21) - (Java) 
+# 🃏 Blackjack Game (21)
 ## 📌 Description
 A console-based implementation of the popular casino card game Blackjack (also known as 21) written in Java.
 
@@ -62,4 +62,4 @@ java Round
 No external libraries required
 
 ## 📘 Course Info
-Course: Τεχνικές Αντικειμενοστρεφούς Προγραμματισμού (Object Oriented Programming Techniques)
+Course: Τεχνικές Αντικειμενοστρεφούς Προγραμματισμού (Object Oriented Programming Techniques - 1st year)
